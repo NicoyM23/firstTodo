@@ -1,0 +1,20 @@
+.todo {
+    font-family: "Nunito", sans-serif;
+    border: none;
+    background: inherit;
+    width: 280px;
+}
+.todo::placeholder {
+    color: rgba(98, 98, 98, 0.45);
+    font-size: 15px;
+    font-weight: 500;
+}
+.todo:focus {
+    outline-width: 0;
+}
+.todo:enabled {
+    font-size: 15px;
+    font-weight: 500;
+    color: #202020;
+
+}
